@@ -15,15 +15,15 @@ TWITCH_BOT_USERNAME = "<bot_username>";
 TWITCH_BOT_OAUTH = "<bot_oauth>";
 
 ```
-## Commands:.
-  ### **boss**: shows who's the boss.
+## Commands:
+  **boss**: shows who's the boss.
   
-  ### **insta**: reply to a link like an Instagram link.
+  **insta**: reply to a link like an Instagram link.
   
-  ### **giveaway**: reply to a message with a link for a giveaway.
+  **giveaway**: reply to a message with a link for a giveaway.
   
-  ### **vote**: vote for a user to prestige them.
+  **vote**: vote for a user to prestige them.
   
-  ### **myvote**: see how many votes you have.
+  **myvote**: see how many votes you have.
   
-  ### **rank**: see the top 5 users in the rank.
+  **rank**: see the top 5 users in the rank.
