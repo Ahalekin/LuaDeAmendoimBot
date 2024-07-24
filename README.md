@@ -15,7 +15,7 @@ TWITCH_BOT_USERNAME = "<bot_username>";
 TWITCH_BOT_OAUTH = "<bot_oauth>";
 
 ```
-Commands:.
+### Commands:.
   **boss**: shows who's the boss.
   **insta**: reply to a link like an Instagram link.
   **giveaway**: reply to a message with a link for a giveaway.
