@@ -6,7 +6,7 @@ Some of the files need custom inputs, which you can see with the two <> and the 
 `<link>`
 `<name>`
 .
-It contains a `dotenv` requirement with a `.env` file with your `TWITCH_CHANELNAME` `TWITCH_BOT_USERNAME` `TWITCH_BOT_OAUTH` to use the bot and a local `file.json` with a `[]` on it to work.
+It contains a `dotenv` requirement with a `.env` file with your `TWITCH_CHANELNAME` `TWITCH_BOT_USERNAME` `TWITCH_BOT_OAUTH` to use the bot.
 
 You can build one like this:
 ```
