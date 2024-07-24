@@ -33,7 +33,7 @@ const comands = {
     theboss:{
         reply:`CLEARLY THE @${theboss.tags.username}`
     },
-    giveway:{
+    giveaway:{
         reply:'<message> <link>'
     },
     //function returns to the user the success or failure of the vote along with the user who was voted
@@ -149,7 +149,7 @@ client.on('message', (channel, tags, message, self) => {
 
             //starts sum to 0 avoiding problems
             var sum = 0;
-            
+
             //loop to sum the dice, saving the random number and then adding it to the total
             //until the specified quantity is reached and then send it in chat
             for(let i = 0; i < quantity; i++){

@@ -33,13 +33,13 @@ class FileManager{
     }
 
     #updateJSON(){
-        const usersJSON = fs.readFileSync('<file.json>', 'utf8');
+        const usersJSON = fs.readFileSync('file.json', 'utf8');
         return JSON.parse(usersJSON);
     };
 
     #storage(usersJSON){
         const usersJSONstring = JSON.stringify(usersJSON, null, 4);
-        fs.writeFile("<file.json>", usersJSONstring, function(err, result) {
+        fs.writeFile("file.json", usersJSONstring, function(err, result) {
             if(err) console.log('error', err);
         });
     }
