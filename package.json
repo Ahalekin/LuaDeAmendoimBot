@@ -1,0 +1,21 @@
+{
+  "name": "luadeamendoimbot",
+  "version": "1.0.0",
+  "description": "Chat bot para a Tainao",
+  "main": "dice.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitch",
+    "chat",
+    "bot"
+  ],
+  "author": "Alexis Liasch Tavares",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "tmi.js": "^1.8.5"
+  }
+}
