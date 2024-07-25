@@ -47,7 +47,7 @@ const comands = {
             const userVoted = fileManager.findUser(vote.toLowerCase());
             if(userVoted !== undefined){
                 if(elector.username != userVoted.tags.username){
-                    fileManager.modfyVotes(voted);
+                    fileManager.modfyVotes(voted.toLowerCase());
                     return `You voted for: ${userVoted.tags.username}`;
                 }
                 return`Im not dumb, you can't vote for yourself`;
