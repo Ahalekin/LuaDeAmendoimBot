@@ -1,5 +1,5 @@
 # LuaDeAmendoimBot
-> The basis of this project I got from [@colby](https://github.com/colbyfayock)
+> The basis of this project We got from [@colby](https://github.com/colbyfayock)
 > ## This is a work-in-progress bot for Twitch. 
 
 Some of the files need custom inputs, which you can see with the two <> and the type of the input like this:
